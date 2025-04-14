@@ -11,19 +11,30 @@ This repository contains a basic frontend application featuring two classic web 
 
 Follow these steps to get the project up and running on your local machine.
 
-### Prerequisites
+### Clone the Repository
+
+First, clone the repository
+
+```bash
+git clone git@github.com:anet-be/ArcadeAntiquitiesGame.git
+```
+
+#### Running with Docker
+
+```
+docker compose up
+```
+
+#### Running locally
+
+
+##### Prerequisites
 
 You need to have **Node.js** and **npm** (Node Package Manager) installed on your machine. If you don’t have them yet, you can download and install them from [here](https://nodejs.org/).
 
-### Clone the Repository
 
-First, clone the repository from GitLab:
 
-```bash
-git clone https://gitlab.com/kdg-ti/the-lab/teams-24-25/project-arcade/games.git
-```
-
-### Install Dependencies
+##### Install Dependencies
 
 Navigate into the project folder and install the required dependencies:
 
@@ -32,7 +43,7 @@ cd games
 npm install
 ```
 
-### Running the Application
+##### Running the Application
 
 To run the application locally, you can use the following command:
 
@@ -46,7 +57,7 @@ This will start a local development server, and you can view the games by openin
 http://localhost:8080
 ```
 
-### Building the Application
+##### Building the Application
 
 To build the project for production (optimized for performance), run:
 
